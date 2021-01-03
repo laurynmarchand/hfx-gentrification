@@ -14,7 +14,9 @@ I recommend reviewing the following resources to learn more about gentrification
 5. [Africville 2.0: In Halifax’s North End, Black residents fear development will take another home away](https://www.theglobeandmail.com/canada/article-africville-20-in-halifaxs-north-end-black-residents-fear-development/)
 
 ## Data
-The data used in this project was pulled from the [2006, 2011, and 2016 National Household Survey (NHS) census profiles](https://www12.statcan.gc.ca/census-recensement/index-eng.cfm?MM=1). The data from selected census tracts were collected and stored in `data/2006-census-data.csv`, `data/2011-census-data.csv`, and `data/2016-census-data.csv` with the following variables:
+The demographic data used in this project was pulled from the [2006, 2011, and 2016 National Household Survey (NHS) census profiles](https://www12.statcan.gc.ca/census-recensement/index-eng.cfm?MM=1). Shapefiles for census tracts were downloaded from the [Statistics Canada 2016 Census boundary file collection](https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2016-eng.cfm). 
+
+The data from selected census tracts were collected and stored in `data/2006-census-data.csv`, `data/2011-census-data.csv`, and `data/2016-census-data.csv` with the following variables:
 
 1. `tid`: Census Tract ID
 2. `population`: tract population
